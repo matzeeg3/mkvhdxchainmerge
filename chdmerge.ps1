@@ -1,4 +1,4 @@
-$startvhdpath = Read-Host -Prompt "VHD"
+$startvhdpath = Read-Host -Prompt "VHD Pfad"
 $i=0
 while ($startvhd -ne "") {
 $startvhd = get-vhd $startvhdpath
